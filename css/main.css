@@ -1,0 +1,175 @@
+.block1{
+    justify-content: left;
+    align-items: flex-start ;
+}
+
+
+.block1 .menu{
+    width: 200px;    
+}
+.block1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 8px ;
+    padding: 12px 25px;
+    
+
+}
+.block1 .menu a:hover,
+.block1 .menu a:active {
+    color: aliceblue;
+    font-weight: bold;
+    background-color: blue;
+  border-radius: 20px;
+  border-bottom: 3px solid  blue;
+  display: block;
+}
+
+.block1 .menu a:active{
+    display: block;
+}
+.block1 .items{
+    padding-left: 25px;
+}
+.block1 .items .sort{
+    margin-bottom: 25px;
+}
+.block1 .items .sort p{
+    color: black;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 25px;
+    
+}
+.block1 .items .sort p a {
+    display: inline-block;
+   text-decoration: none;
+    color: blue;
+    margin-left: 10px;
+    width: 65px;
+    background: url('/images/down-arrow.png') no-repeat;
+    background-position: 100% 50%;
+}
+.block1 .items .sort p a:hover
+{
+    background: url('/images/down-arrow\ 3.png') no-repeat;
+    color: blue;
+    font-weight: 600;
+    background-position: 100% 50%;
+}
+
+.block1 .items .boxes{
+    flex-wrap: wrap;
+}
+.block1 .items .boxes .box{
+    margin-bottom: 35px;
+}
+.box img{
+    width: 212px;
+    height: 163px;
+}
+
+.box figure  figcaption{
+    padding-left: 23px;
+} 
+
+.box figure  figcaption p span{
+    font-size: 20px;
+    font-weight: 600;
+}
+    
+.box .title {
+    color:gray;
+    font-size: 14px;
+    padding-left: 23px;
+    margin-top: 10px;
+}
+
+.box button {
+    width: 245px;
+    padding:  12px;
+    border-radius: 20px;    
+    background-color: red;
+    color: aliceblue;
+    margin-top: 15px;
+    border: none;
+}
+.box button:hover{
+    cursor: pointer;
+    
+}
+.block1 .items .pagi{
+    text-align: center;
+}
+.block1 .items .pagi a {
+    margin: 0;
+    color: gray;
+    font-size: 21px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.block1 .items .pagi a:hover,
+.block1 .items .pagi a.active{
+    color: blue;
+}
+.adv h2{
+    text-align: center;
+    margin: 70px 0;
+    color: rgb(63, 57, 57);
+    font-size: 1.875em;
+    font-weight: 600;
+}
+.adv div p{
+    color: rgb(113, 108, 108);
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 345px;
+}
+.adv div p span{
+    font-weight: bold;
+}
+.adv div figure{
+    margin: 0 50px;
+    text-align: center;
+}
+.adv div figure figcaption{
+    color: rgb(81, 76, 76);
+    font-size: 14px;
+   font-weight: 300;    
+}
+.adv div figure img{    
+    width: 75px;
+    height: 70px;
+
+}
+.sub{
+    text-align: center;
+    
+}
+.sub h2{
+    margin-bottom: 10px;
+}
+.sub .title{
+    font-size: 20px;
+    color: rgb(94, 93, 93);
+    font-weight: 600;
+    margin-bottom:45px ;
+}
+
+.sub form div input{
+    border-radius: 20px;
+}
+
+.sub form div input [type="email"]{
+  padding: 20px 15px;
+  border: 1px solid gray;
+  width: 260px;
+  }
+  sub form div input [type="submit"]{
+    padding: 20px 15px;
+    border: 1px solid gray;
+    width: 260px;
+    }
+    
